@@ -1,19 +1,23 @@
+/**
+ * https://itp.nyu.edu/physcomp/labs/labs-arduino-digital-and-analog/tone-output-using-an-arduino/
+ **/
+
 #include "pitches.h"
 
 int melody[] = {
   NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_G6, NOTE_C6, NOTE_D6,
-  NOTE_E6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, 
-  NOTE_D6, NOTE_D6, NOTE_E6, NOTE_D6, NOTE_G6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, 
-  NOTE_E6, NOTE_E6, NOTE_G6, NOTE_C6, NOTE_D6, NOTE_E6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6, 
+  NOTE_E6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6,
+  NOTE_D6, NOTE_D6, NOTE_E6, NOTE_D6, NOTE_G6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_E6,
+  NOTE_E6, NOTE_E6, NOTE_G6, NOTE_C6, NOTE_D6, NOTE_E6, NOTE_F6, NOTE_F6, NOTE_F6, NOTE_F6,
   NOTE_F6, NOTE_E6, NOTE_E6, NOTE_E6, NOTE_G6, NOTE_G6, NOTE_E6, NOTE_D6, NOTE_C6
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
-  4, 4, 2, 4, 4, 2, 4, 4, 4, 4, 
-  1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 
-  4, 4, 4, 2, 2, 4, 4, 2, 4, 4, 
-  2, 4, 4, 4, 4, 1, 4, 4, 4, 4, 
+  4, 4, 2, 4, 4, 2, 4, 4, 4, 4,
+  1, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+  4, 4, 4, 2, 2, 4, 4, 2, 4, 4,
+  2, 4, 4, 4, 4, 1, 4, 4, 4, 4,
   4, 4, 4, 4, 4, 4, 4, 4, 1
 };
 
@@ -29,8 +33,3 @@ void setup() {
 
 void loop() {
 }
-
-
-
-
-
